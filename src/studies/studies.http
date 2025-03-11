@@ -1,0 +1,27 @@
+### list studies
+GET http://localhost:3000/studies
+
+### get study
+GET http://localhost:3000/studies/study_IOIPFIXDQGje0eE2Eo5nz
+
+### create study
+POST http://localhost:3000/studies
+Content-Type: application/json
+
+{
+    "name": "teste",
+    "description": "teste"
+}
+
+
+### update study
+PATCH http://localhost:3000/studies/study_xCMOI76Z14snvl8s1M_cc
+Content-Type: application/json
+
+{
+    "description": "opa"
+}
+
+
+### list studies
+DELETE http://localhost:3000/studies/study_IOIPFIXDQGje0eE2Eo5nz

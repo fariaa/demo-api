@@ -1,0 +1,36 @@
+### list articles
+GET http://localhost:3000/articles
+
+### get article
+GET http://localhost:3000/articles/article_3dcO0E846_ronIOc-tPgM
+
+### create article
+POST http://localhost:3000/articles
+Content-Type: application/json
+
+{
+  "title": "Meu Primeiro Artigo",
+  "slug": "meu-primeiro-artigo 2",
+  "description": "Este é um resumo do meu primeiro artigo.",
+  "content": "Aqui está o conteúdo completo do meu artigo.",
+  "authorId": "author_qaT8Ef6yJ63JJzJfdeW7Z",
+  "publishedAt": "2023-10-12T10:00:00.000Z",
+  "status": "publicado",
+  "tags": ["blog", "nestjs", "typescript"],
+  "categories": ["Tecnologia", "Programação"],
+  "coverImage": "https://exemplo.com/imagem.jpg",
+  "externalLinks": ["https://exemplo.com"]
+}
+
+
+### update article
+PATCH http://localhost:3000/articles/article_3dcO0E846_ronIOc-tPgM
+Content-Type: application/json
+
+{
+    "status": "inativo"
+}
+
+
+### list articles
+DELETE http://localhost:3000/articles/article_3dcO0E846_ronIOc-tPgM

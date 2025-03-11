@@ -1,0 +1,29 @@
+### list authors
+GET http://localhost:3000/authors
+
+### get study
+GET http://localhost:3000/authors/author_qaT8Ef6yJ63JJzJfdeW7Z
+
+### create study
+POST http://localhost:3000/authors
+Content-Type: application/json
+
+{
+  "name": "João Silva",
+  "email": "teste.silva@example.com",
+  "bio": "João Silva é um escritor apaixonado por tecnologia e programação.",
+  "profilePicture": "https://exemplo.com/foto-perfil.jpg"
+}
+
+
+### update study
+PATCH http://localhost:3000/authors/author_mXubzZxNamqro0frDn-r_
+Content-Type: application/json
+
+{
+    "name": "fabio"
+}
+
+
+### list authors
+DELETE http://localhost:3000/authors/author_mXubzZxNamqro0frDn-r_
