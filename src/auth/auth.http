@@ -21,12 +21,12 @@ POST http://localhost:3000/auth/login
 Content-Type: application/json
 
 {
-    "email": "joao.silva@example.com",
-    "password": "password123"
+    "email": "fariaa@hotmail.com",
+    "password": "teste@123"
 }
 
 ### Salvar o token da resposta
-@accessToken = {{response.body.accessToken}}
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhcmlhYUBob3RtYWlsLmNvbSIsInN1YiI6InVzZXJfenZWMzBPWWtvR2xYeG5nZFl3emRDIiwiaWF0IjoxNzQxNzQ2MjY3LCJleHAiOjE3NDE3NDk4Njd9.YeabwQME5-G1sBkPmHcNBCExgXK7McfHwnTXi3Hvj4c
 
 ### create author
 POST http://localhost:3000/authors

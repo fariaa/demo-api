@@ -9,11 +9,11 @@ POST http://localhost:3000/articles
 Content-Type: application/json
 
 {
-  "title": "Meu Primeiro Artigo",
-  "slug": "meu-primeiro-artigo 2",
+  "title": "Educação infantial",
+  "slug": "meu-primeiro-artigo 3",
   "description": "Este é um resumo do meu primeiro artigo.",
   "content": "Aqui está o conteúdo completo do meu artigo.",
-  "authorId": "author_qaT8Ef6yJ63JJzJfdeW7Z",
+  "authorId": "author_cwu7MXcd9uSX7dFwbf92Z",
   "publishedAt": "2023-10-12T10:00:00.000Z",
   "status": "publicado",
   "tags": ["blog", "nestjs", "typescript"],

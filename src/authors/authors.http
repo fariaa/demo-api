@@ -1,10 +1,10 @@
 ### list authors
 GET http://localhost:3000/authors
 
-### get study
+### get Author
 GET http://localhost:3000/authors/author_qaT8Ef6yJ63JJzJfdeW7Z
 
-### create study
+### create Author
 POST http://localhost:3000/authors
 Content-Type: application/json
 
@@ -16,7 +16,7 @@ Content-Type: application/json
 }
 
 
-### update study
+### update Author
 PATCH http://localhost:3000/authors/author_mXubzZxNamqro0frDn-r_
 Content-Type: application/json
 
